@@ -1,0 +1,226 @@
+<?php
+    
+?>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hubungi kami untuk informasi lebih lanjut tentang wisata Curug Lawe Ungaran, Semarang, Jawa Tengah.">
+    <meta name="keywords" content="kontak Curug Lawe, info wisata, reservasi, feedback pengunjung">
+    <title>Kontak - Curug Lawe Ungaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="destinasi.html">Destinasi</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="fasilitas.html">Fasilitas</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="kontak.html" class="active">Kontak</a></li>
+            <li><a href="tentang.html" class="active">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Hubungi Kami</h1>
+            <p>Dapatkan Informasi Lengkap dan Berikan Masukan Untuk Curug Lawe</p>
+        </header>
+
+        <main>
+            <section class="contact-intro">
+                <h2>Kami Siap Membantu Anda</h2>
+                <p>Tim Curug Lawe Tourism siap memberikan informasi terbaik untuk menjadikan kunjungan Anda 
+                   tak terlupakan. Jangan ragu untuk menghubungi kami atau memberikan masukan untuk 
+                   pengembangan wisata yang lebih baik.</p>
+            </section>
+
+            <section class="contact-form-section">
+                <h2>Formulir Kontak</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap *</label>
+                        <input type="text" id="name" name="name" required 
+                               placeholder="Masukkan nama lengkap Anda">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required 
+                               placeholder="alamat.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Nomor Telepon</label>
+                        <input type="tel" id="phone" name="phone" 
+                               placeholder="08123456789">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subjek *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Pilih subjek pertanyaan</option>
+                            <option value="informasi">Informasi Umum</option>
+                            <option value="reservasi">Reservasi & Booking</option>
+                            <option value="fasilitas">Fasilitas & Layanan</option>
+                            <option value="keluhan">Keluhan & Saran</option>
+                            <option value="kerjasama">Kerjasama & Partnership</option>
+                            <option value="media">Media & Press</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="visit-plan">Rencana Kunjungan</label>
+                        <input type="date" id="visit-plan" name="visit-plan">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="group-size">Jumlah Pengunjung</label>
+                        <select id="group-size" name="group-size">
+                            <option value="">Pilih jumlah pengunjung</option>
+                            <option value="1-5">1-5 orang</option>
+                            <option value="6-15">6-15 orang</option>
+                            <option value="16-30">16-30 orang</option>
+                            <option value="31-50">31-50 orang</option>
+                            <option value="50+">Lebih dari 50 orang</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Pesan atau Pertanyaan *</label>
+                        <textarea id="message" name="message" required 
+                                  placeholder="Tuliskan pertanyaan, saran, atau masukan Anda di sini..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="newsletter" value="yes">
+                            Saya ingin menerima newsletter dan update terbaru dari Curug Lawe
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="privacy" value="yes" required>
+                            Saya menyetujui <a href="#" style="color: #3498db;">kebijakan privasi</a> 
+                            dan penggunaan data personal *
+                        </label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Kirim Pesan
+                    </button>
+                </form>
+            </section>
+
+            <section class="contact-info">
+                <h2>Informasi Kontak</h2>
+                
+                <div class="destination-item">
+                    <h3>Kantor Pengelola</h3>
+                    <p><strong>Alamat:</strong> Jl. Raya Ungaran-Salatiga KM 15, Desa Lerep, 
+                       Kecamatan Ungaran Barat, Kabupaten Semarang, Jawa Tengah 50552</p>
+                    <p><strong>Jam Operasional:</strong> Senin-Jumat: 08:00-16:00 WIB, Sabtu: 08:00-12:00 WIB</p>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Kontak Langsung</h3>
+                    <ul class="features-list">
+                        <li><strong>Customer Service:</strong> 0821-3456-7890</li>
+                        <li><strong>WhatsApp:</strong> +62 821-3456-7890</li>
+                        <li><strong>Email:</strong> info@curuglawe.com</li>
+                        <li><strong>Reservasi:</strong> booking@curuglawe.com</li>
+                        <li><strong>Emergency:</strong> 0821-3456-7891 (24 jam)</li>
+                    </ul>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Media Sosial</h3>
+                    <p>Ikuti kami di media sosial untuk update terbaru:</p>
+                    <ul class="features-list">
+                        <li><strong>Instagram:</strong> @curuglawe_official</li>
+                        <li><strong>Facebook:</strong> Curug Lawe Tourism</li>
+                        <li><strong>YouTube:</strong> Curug Lawe Channel</li>
+                        <li><strong>TikTok:</strong> @curuglawe_ungaran</li>
+                        <li><strong>Twitter:</strong> @CurugLaweID</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="departments">
+                <h2>Dinas & Layanan</h2>
+                
+                <div class="destination-item">
+                    <h3>Dinas Pariwisata</h3>
+                    <p><strong>Kepala:</strong> Bapak Suryanto, S.Par</p>
+                    <p><strong>Telepon:</strong> 0821-3456-7892</p>
+                    <p><strong>Email:</strong> tourism@curuglawe.com</p>
+                    <p><strong>Layanan:</strong> Informasi umum, paket wisata, guide booking</p>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Dinas Kehutanan</h3>
+                    <p><strong>Kepala:</strong> Bapak Joko Susilo</p>
+                    <p><strong>Telepon:</strong> 0821-3456-7893</p>
+                    <p><strong>Email:</strong> security@curuglawe.com</p>
+                    <p><strong>Layanan:</strong> Keamanan pengunjung, barang hilang, emergency</p>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Dinas Lingkungan Hidup</h3>
+                    <p><strong>Kepala:</strong> Ibu Dr. Sari Lestari, M.Si</p>
+                    <p><strong>Telepon:</strong> 0821-3456-7894</p>
+                    <p><strong>Email:</strong> environment@curuglawe.com</p>
+                    <p><strong>Layanan:</strong> Edukasi lingkungan, penelitian, konservasi</p>
+                </div>
+            </section>
+
+            <section class="faq">
+                <h2>Frequently Ask Question (FAQ)</h2>
+                
+                <div class="destination-item">
+                    <h3>Apakah tiket bisa dibeli online?</h3>
+                    <p>Saat ini tiket masih dibeli langsung di lokasi. Namun, untuk rombongan dapat melakukan 
+                       reservasi melalui WhatsApp atau email untuk memastikan ketersediaan.</p>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Apakah boleh camping di Curug Lawe?</h3>
+                    <p>Ya, camping diperbolehkan di area yang telah ditentukan. Biaya camping Rp 25.000 per orang per malam. 
+                       Reservasi diperlukan, terutama di akhir pekan.</p>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Bagaimana akses transportasi ke Curug Lawe?</h3>
+                    <p>Dapat diakses dengan kendaraan pribadi atau menyewa travel. Dari Semarang, ambil arah Ungaran 
+                       dan ikuti petunjuk menuju Desa Lerep. Jalan sudah beraspal dengan kondisi baik.</p>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Apakah ada makanan dan minuman di lokasi?</h3>
+                    <p>Ya, terdapat 5 warung makan dan 3 kafe yang menyediakan makanan dan minuman dengan harga terjangkau. 
+                       Menu tersedia mulai dari makanan tradisional hingga modern.</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Curug Lawe Tourism. Semua hak dilindungi.</p>
+        <p>Wisata Berkelanjutan untuk Generasi Mendatang</p>
+    </footer>
+
+    <script>
+        // Form submission handler
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Terima kasih! Pesan Anda telah dikirim. Tim kami akan segera menghubungi Anda.');
+        });
+    </script>
+</body>
+</html>

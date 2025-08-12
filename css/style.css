@@ -1,0 +1,464 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+}
+
+nav ul li a.active {
+    background-color: #3498db;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Image Styles */
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #bdc3c7;
+    margin: 15px 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.gallery-item {
+    cursor: pointer;
+    border: 1px solid #bdc3c7;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.gallery-caption {
+    padding: 10px;
+    background-color: #ecf0f1;
+}
+
+.gallery-caption h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.gallery-caption p {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.destination-item {
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #bdc3c7;
+}
+
+.destination-item img {
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #bdc3c7;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+/* List Styles */
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    background: #ecf0f1;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 3px solid #3498db;
+}
+
+.features-list li:before {
+    content: "• ";
+    color: #3498db;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.activities-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.activities-list li {
+    background: #3498db;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+/* Table Styles */
+.facilities-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background: white;
+    border: 1px solid #bdc3c7;
+}
+
+.facilities-table th,
+.facilities-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #bdc3c7;
+}
+
+.facilities-table th {
+    background: #34495e;
+    color: white;
+    font-weight: bold;
+}
+
+.facilities-table tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.facilities-table tr:hover {
+    background: #e8f4f8;
+}
+
+/* Form Styles */
+.contact-form {
+    background: #ecf0f1;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-btn {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #2980b9;
+}
+
+/* Media Elements */
+.media-container {
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border: 1px solid #bdc3c7;
+}
+
+.media-container audio,
+.media-container video {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+.media-container iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #bdc3c7;
+}
+
+/* About Section */
+.about-section {
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #bdc3c7;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: #3498db;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #3498db;
+}
+
+.social-links a:hover {
+    background: #3498db;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 2px 0;
+    }
+    
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-image {
+        height: 200px;
+    }
+    
+    .destination-item img {
+        float: none;
+        margin: 10px 0;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    
+    .facilities-table {
+        font-size: 0.9rem;
+    }
+    
+    .facilities-table th,
+    .facilities-table td {
+        padding: 5px;
+    }
+}
+
+/* Utility Classes */
+.text-center { 
+    text-align: center; 
+}
+
+.text-right { 
+    text-align: right; 
+}
+
+.mb-1 { 
+    margin-bottom: 15px; 
+}
+
+.mb-2 { 
+    margin-bottom: 30px; 
+}
+
+.mt-1 { 
+    margin-top: 15px; 
+}
+
+.mt-2 { 
+    margin-top: 30px; 
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+/* Simple Sections */
+.hero-section,
+.features-section,
+.quick-info,
+.highlights {
+    margin: 30px 0;
+}
+
+.hero-section {
+    text-align: center;
+}
+
+.contact-intro,
+.gallery-intro,
+.website-purpose,
+.website-features,
+.developer-info,
+.project-background,
+.technical-specs,
+.sustainability,
+.acknowledgments,
+.contact-developer,
+.social-media,
+.future-development,
+.disclaimer {
+    margin: 25px 0;
+}
+
+.main-gallery,
+.nature-gallery,
+.activity-gallery,
+.seasonal-gallery,
+.photo-tips {
+    margin: 25px 0;
+}
+
+.contact-form-section,
+.contact-info,
+.departments,
+.faq,
+.response-time {
+    margin: 25px 0;
+}
+
+.facilities-overview,
+.main-facilities,
+.ticket-prices,
+.operating-hours,
+.additional-services,
+.safety-facilities {
+    margin: 25px 0;
+}
+
+.video-section,
+.audio-section,
+.map-section,
+.interactive-content,
+.multimedia-tips {
+    margin: 25px 0;
+}
+
+.main-destination,
+.surrounding-attractions,
+.tour-packages {
+    margin: 25px 0;
+}

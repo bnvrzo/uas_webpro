@@ -1,0 +1,365 @@
+<?php
+?>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fasilitas lengkap di Curug Lawe Ungaran - Parkir, toilet, warung, harga tiket, dan jam buka untuk kenyamanan pengunjung.">
+    <meta name="keywords" content="fasilitas Curug Lawe, harga tiket, jam buka, parkir, toilet, warung makan">
+    <title>Fasilitas - Curug Lawe Ungaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="destinasi.html">Destinasi</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="fasilitas.html" class="active">Fasilitas</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Fasilitas Pengunjung</h1>
+            <p>Nikmati Kenyamanan Lengkap Selama Berwisata di Curug Lawe</p>
+        </header>
+
+        <main>
+            <section class="facilities-overview">
+                <h2>Fasilitas Unggulan</h2>
+                <p>Curug Lawe menyediakan berbagai fasilitas modern untuk memastikan kenyamanan dan keamanan 
+                   pengunjung. Semua fasilitas dikelola dengan standar kebersihan tinggi dan ramah lingkungan.</p>
+            </section>
+
+            <section class="main-facilities">
+                <h2>Daftar Fasilitas Utama</h2>
+                <table class="facilities-table">
+                    <thead>
+                        <tr>
+                            <th>Fasilitas</th>
+                            <th>Status</th>
+                            <th>Kapasitas</th>
+                            <th>Jam Operasional</th>
+                            <th>Biaya</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Area Parkir</td>
+                            <td>✅ Tersedia</td>
+                            <td>200 kendaraan</td>
+                            <td>06:00 - 19:00</td>
+                            <td>Rp 5.000</td>
+                        </tr>
+                        <tr>
+                            <td>Parkir Motor</td>
+                            <td>✅ Tersedia</td>
+                            <td>500 motor</td>
+                            <td>06:00 - 19:00</td>
+                            <td>Rp 2.000</td>
+                        </tr>
+                        <tr>
+                            <td>Toilet Umum</td>
+                            <td>✅ Tersedia</td>
+                            <td>20 bilik</td>
+                            <td>06:00 - 18:00</td>
+                            <td>Gratis</td>
+                        </tr>
+                        <tr>
+                            <td>Kamar Mandi</td>
+                            <td>✅ Tersedia</td>
+                            <td>12 bilik</td>
+                            <td>06:00 - 18:00</td>
+                            <td>Rp 3.000</td>
+                        </tr>
+                        <tr>
+                            <td>Warung Makan</td>
+                            <td>✅ Tersedia</td>
+                            <td>5 warung</td>
+                            <td>07:00 - 18:00</td>
+                            <td>Rp 15.000-40.000</td>
+                        </tr>
+                        <tr>
+                            <td>Kafe & Minuman</td>
+                            <td>✅ Tersedia</td>
+                            <td>3 kafe</td>
+                            <td>07:00 - 18:00</td>
+                            <td>Rp 5.000-25.000</td>
+                        </tr>
+                        <tr>
+                            <td>Toko Souvenir</td>
+                            <td>✅ Tersedia</td>
+                            <td>2 toko</td>
+                            <td>08:00 - 17:00</td>
+                            <td>Rp 5.000-100.000</td>
+                        </tr>
+                        <tr>
+                            <td>Pos Kesehatan</td>
+                            <td>✅ Tersedia</td>
+                            <td>1 pos</td>
+                            <td>08:00 - 17:00</td>
+                            <td>Gratis</td>
+                        </tr>
+                        <tr>
+                            <td>Locker Barang</td>
+                            <td>✅ Tersedia</td>
+                            <td>50 locker</td>
+                            <td>07:00 - 18:00</td>
+                            <td>Rp 10.000</td>
+                        </tr>
+                        <tr>
+                            <td>WiFi Gratis</td>
+                            <td>✅ Tersedia</td>
+                            <td>Unlimited</td>
+                            <td>24 jam</td>
+                            <td>Gratis</td>
+                        </tr>
+                        <tr>
+                            <td>Penerangan Jalan</td>
+                            <td>✅ Tersedia</td>
+                            <td>Sepanjang jalur</td>
+                            <td>18:00 - 06:00</td>
+                            <td>Gratis</td>
+                        </tr>
+                        <tr>
+                            <td>Helipad Darurat</td>
+                            <td>✅ Tersedia</td>
+                            <td>1 helipad</td>
+                            <td>24 jam</td>
+                            <td>Khusus emergency</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="ticket-prices">
+                <h2>Harga Tiket Masuk</h2>
+                <table class="facilities-table">
+                    <thead>
+                        <tr>
+                            <th>Kategori Pengunjung</th>
+                            <th>Hari Biasa</th>
+                            <th>Akhir Pekan</th>
+                            <th>Libur Nasional</th>
+                            <th>Keterangan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dewasa</td>
+                            <td>Rp 15.000</td>
+                            <td>Rp 20.000</td>
+                            <td>Rp 25.000</td>
+                            <td>Usia 18+ tahun</td>
+                        </tr>
+                        <tr>
+                            <td>Anak-anak</td>
+                            <td>Rp 10.000</td>
+                            <td>Rp 12.000</td>
+                            <td>Rp 15.000</td>
+                            <td>Usia 3-17 tahun</td>
+                        </tr>
+                        <tr>
+                            <td>Pelajar/Mahasiswa</td>
+                            <td>Rp 8.000</td>
+                            <td>Rp 10.000</td>
+                            <td>Rp 12.000</td>
+                            <td>Dengan kartu pelajar</td>
+                        </tr>
+                        <tr>
+                            <td>Lansia</td>
+                            <td>Rp 10.000</td>
+                            <td>Rp 12.000</td>
+                            <td>Rp 15.000</td>
+                            <td>Usia 60+ tahun</td>
+                        </tr>
+                        <tr>
+                            <td>Disabilitas</td>
+                            <td>Gratis</td>
+                            <td>Gratis</td>
+                            <td>Gratis</td>
+                            <td>Dengan kartu disabilitas</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Keluarga</td>
+                            <td>Rp 45.000</td>
+                            <td>Rp 60.000</td>
+                            <td>Rp 75.000</td>
+                            <td>2 dewasa + 2 anak</td>
+                        </tr>
+                        <tr>
+                            <td>Rombongan</td>
+                            <td>Rp 12.000</td>
+                            <td>Rp 15.000</td>
+                            <td>Rp 18.000</td>
+                            <td>Minimal 25 orang</td>
+                        </tr>
+                        <tr>
+                            <td>Camping</td>
+                            <td>Rp 25.000</td>
+                            <td>Rp 35.000</td>
+                            <td>Rp 45.000</td>
+                            <td>Per orang per malam</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="operating-hours">
+                <h2>Jam Operasional</h2>
+                <table class="facilities-table">
+                    <thead>
+                        <tr>
+                            <th>Hari</th>
+                            <th>Jam Buka</th>
+                            <th>Jam Tutup</th>
+                            <th>Keterangan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Senin - Jumat</td>
+                            <td>07:00 WIB</td>
+                            <td>17:00 WIB</td>
+                            <td>Hari biasa</td>
+                        </tr>
+                        <tr>
+                            <td>Sabtu - Minggu</td>
+                            <td>06:00 WIB</td>
+                            <td>18:00 WIB</td>
+                            <td>Akhir pekan</td>
+                        </tr>
+                        <tr>
+                            <td>Libur Nasional</td>
+                            <td>06:00 WIB</td>
+                            <td>18:00 WIB</td>
+                            <td>Hari libur</td>
+                        </tr>
+                        <tr>
+                            <td>Ramadan</td>
+                            <td>08:00 WIB</td>
+                            <td>16:00 WIB</td>
+                            <td>Bulan suci</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="additional-services">
+                <h2>Layanan Tambahan</h2>
+                <div class="destination-item">
+                    <h3>Layanan Guided Tour</h3>
+                    <ul class="features-list">
+                        <li>Guide profesional bersertifikat</li>
+                        <li>Penjelasan sejarah dan geologi air terjun</li>
+                        <li>Identifikasi flora dan fauna lokal</li>
+                        <li>Foto dokumentasi perjalanan</li>
+                        <li>Biaya: Rp 100.000 per grup (max 15 orang)</li>
+                    </ul>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Layanan Fotografi</h3>
+                    <ul class="features-list">
+                        <li>Photographer profesional</li>
+                        <li>Sesi foto 2 jam dengan berbagai spot</li>
+                        <li>Editing dan retouching foto</li>
+                        <li>Soft copy 50 foto terbaik</li>
+                        <li>Biaya: Rp 500.000 per sesi</li>
+                    </ul>
+                </div>
+
+                <div class="destination-item">
+                    <h3>Paket Camping</h3>
+                    <ul class="features-list">
+                        <li>Tenda dan peralatan camping</li>
+                        <li>Sleeping bag dan matras</li>
+                        <li>Makanan dan minuman</li>
+                        <li>Pemandu camping berpengalaman</li>
+                        <li>Biaya: Rp 200.000 per orang per malam</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="safety-facilities">
+                <h2>Fasilitas Keamanan</h2>
+                <table class="facilities-table">
+                    <thead>
+                        <tr>
+                            <th>Fasilitas Keamanan</th>
+                            <th>Jumlah</th>
+                            <th>Lokasi</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pos Keamanan</td>
+                            <td>3 pos</td>
+                            <td>Pintu masuk, tengah, air terjun</td>
+                            <td>✅ Aktif 24 jam</td>
+                        </tr>
+                        <tr>
+                            <td>CCTV</td>
+                            <td>25 unit</td>
+                            <td>Sepanjang jalur wisata</td>
+                            <td>✅ Monitoring aktif</td>
+                        </tr>
+                        <tr>
+                            <td>Ambulans</td>
+                            <td>1 unit</td>
+                            <td>Pos kesehatan</td>
+                            <td>✅ Standby</td>
+                        </tr>
+                        <tr>
+                            <td>Petugas Medis</td>
+                            <td>2 orang</td>
+                            <td>Pos kesehatan</td>
+                            <td>✅ Jaga bergantian</td>
+                        </tr>
+                        <tr>
+                            <td>Life Jacket</td>
+                            <td>50 unit</td>
+                            <td>Area kolam renang</td>
+                            <td>✅ Tersedia gratis</td>
+                        </tr>
+                        <tr>
+                            <td>Alarm Darurat</td>
+                            <td>10 unit</td>
+                            <td>Titik-titik strategis</td>
+                            <td>✅ Siap pakai</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="contact-info">
+                <h2>Informasi Kontak</h2>
+                <div class="destination-item">
+                    <h3>Alamat Lengkap</h3>
+                    <p>Curug Lawe, Desa Lerep, Kecamatan Ungaran Barat, Kabupaten Semarang, Jawa Tengah 50552</p>
+                    
+                    <h3>Kontak Darurat</h3>
+                    <ul class="features-list">
+                        <li>Pos Keamanan: 0821-3456-7890</li>
+                        <li>Pos Kesehatan: 0821-3456-7891</li>
+                        <li>Manajemen: 0821-3456-7892</li>
+                        <li>Polsek Ungaran: (024) 6921234</li>
+                        <li>Puskesmas Ungaran: (024) 6921235</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Curug Lawe Tourism. Semua hak dilindungi.</p>
+        <p>Wisata Berkelanjutan untuk Generasi Mendatang</p>
+    </footer>
+</body>
+</html>

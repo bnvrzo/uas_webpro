@@ -1,0 +1,218 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galeri foto Curug Lawe Ungaran - Koleksi foto-foto indah air terjun dan alam sekitarnya di Semarang, Jawa Tengah.">
+    <meta name="keywords" content="galeri Curug Lawe, foto air terjun, Ungaran, Semarang, fotografi alam">
+    <title>Galeri Foto - Curug Lawe Ungaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="destinasi.html">Destinasi</a></li>
+            <li><a href="galeri.html" class="active">Galeri</a></li>
+            <li><a href="fasilitas.html">Fasilitas</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Galeri Foto</h1>
+            <p>Koleksi Foto-Foto Curug Lawe dan Sekitarnya</p>
+        </header>
+
+        <main>
+            <section class="gallery-intro">
+                <h2>Keindahan dalam Setiap Frame</h2>
+                <p>Nikmati koleksi foto-foto terbaik dari Curug Lawe dan kawasan wisata sekitarnya. Setiap foto menangkap momen keindahan alam yang memukau dan mengundang untuk dikunjungi.</p>
+            </section>
+
+            <section class="main-gallery">
+                <h2>Curug Lawe</h2>
+                <p>Klik pada setiap foto untuk melihat dalam ukuran yang lebih besar</p>
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/Panorama_1.jpg" 
+                             alt="Curug Lawe Main Falls - Panoramic View">
+                        <div class="gallery-caption">
+                            <h3>Panorama Air Terjun Utama</h3>
+                            <p>Pemandangan menakjubkan air terjun setinggi 25 meter</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/Kolam.webp" 
+                             alt="Curug Lawe Natural Pool">
+                        <div class="gallery-caption">
+                            <h3>Kolam Air Terjun</h3>
+                            <p>Kolam jernih di bawah air terjun untuk berenang</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/kabut.webp" 
+                             alt="Curug Lawe Mist Effect">
+                        <div class="gallery-caption">
+                            <h3>Kabut Air Terjun</h3>
+                            <p>Kabut halus yang terbentuk dari jatuhan air menciptakan atmosfer magis</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="nature-gallery">
+                <h2>Keindahan Rute Tracking</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/jembatan.jpg" 
+                             alt="jembatan romantis">
+                        <div class="gallery-caption">
+                            <h3>Jembatan Romantis</h3>
+                            <p>Jembatan Romantis memaksa para pasangan yang melewati harus bergadengan tangan </p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/akar_o.jpg" 
+                             alt="akaro">
+                        <div class="gallery-caption">
+                            <h3>Akar O</h3>
+                            <p>Sebuah Akar unik yang membentuk seperti huruf O, cocok untuk spot foto</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/irigasi.webp" 
+                             alt="Rute Irigasi">
+                        <div class="gallery-caption">
+                            <h3>Jalan Irigasi</h3>
+                            <p>Rute jalan pinggir irigasi untuk pengairan petani</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="activity-gallery">
+                <h2>Aktivitas Pengunjung</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/tracking.jpeg" 
+                             alt="Trekking to Curug Lawe">
+                        <div class="gallery-caption">
+                            <h3>Trekking Adventure</h3>
+                            <p>Petualangan mendaki menuju air terjun melalui jalur alami</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/trailrun.jpeg" 
+                             alt="trailrun">
+                        <div class="gallery-caption">
+                            <h3>Trail Run</h3>
+                            <p>Trailrun Curug Lawe membawa jiwa berpetualang menyatu dengan alam</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openImage(this)">
+                        <img src="images/Foto Galeri/Air_Terjun/fotografi.jpg" 
+                             alt="Photography Session">
+                        <div class="gallery-caption">
+                            <h3>Sesi Fotografi</h3>
+                            <p>Mengabadikan momen indah dengan latar belakang air terjun</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="photo-tips">
+                <h2>Tips Fotografi di Curug Lawe</h2>
+                <div class="destination-item">
+                    <h3>Teknik Fotografi Air Terjun</h3>
+                    <ul class="features-list">
+                        <li>Gunakan shutter speed lambat (1/4 - 2 detik) untuk efek air yang halus</li>
+                        <li>Waktu terbaik: Golden hour (06:00-08:00 dan 16:00-18:00)</li>
+                        <li>Bawa tripod untuk stabilitas dalam kondisi low light</li>
+                        <li>Gunakan filter polarizing untuk mengurangi pantulan air</li>
+                        <li>Posisi terbaik: dari berbagai sudut untuk variasi komposisi</li>
+                        <li>Lindungi kamera dari percikan air dengan rain cover</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Curug Lawe Tourism. Semua hak dilindungi.</p>
+        <p>Wisata Berkelanjutan untuk Generasi Mendatang</p>
+    </footer>
+
+    <script>
+        function openImage(element) {
+            const img = element.querySelector('img');
+            const caption = element.querySelector('.gallery-caption h3').textContent;
+            
+            // Create modal overlay
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.9);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 2000;
+                cursor: pointer;
+            `;
+            
+            // Create modal image
+            const modalImg = document.createElement('img');
+            modalImg.src = img.src.replace('w=400', 'w=1200'); // Get higher resolution
+            modalImg.style.cssText = `
+                max-width: 90%;
+                max-height: 90%;
+                object-fit: contain;
+                border-radius: 8px;
+            `;
+            
+            // Create caption
+            const modalCaption = document.createElement('div');
+            modalCaption.textContent = caption;
+            modalCaption.style.cssText = `
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: white;
+                text-align: center;
+                font-size: 1.2rem;
+                background: rgba(0,0,0,0.7);
+                padding: 10px 20px;
+                border-radius: 5px;
+            `;
+            
+            modal.appendChild(modalImg);
+            modal.appendChild(modalCaption);
+            
+            // Close modal on click
+            modal.addEventListener('click', () => {
+                document.body.removeChild(modal);
+            });
+            
+            document.body.appendChild(modal);
+        }
+    </script>
+</body>
+</html>
